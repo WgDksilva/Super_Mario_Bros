@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Projeto Mario Bros</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="https://www.nintendo.com/pt-br/store/games/mario-games/?srsltid=AfmBOopeodxBlKPQ-82gnAMX5KkqEsdhmNk4-KQDVfPHwVG4G4YNyvQK#sort=df&p=0"
+            target="_blank">
+            <img src="./assets/icon/icon.png" alt="icon mario bros" class="logo-mario">
+        </a>
+        <a href="">Home</a>
+        <a href="" class="servicos">Nossos serviços</a>
+        <a href="">Fale conosco</a>
+    </div>
+    
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <a href="https://www.nintendo.com/pt-pt/Jogos/Portal-Nintendo/Portal-Super-Mario/Portal-Super-Mario-627604.html"
+                target="_blank">
+                <img src="./assets/img/logo.png" alt="logo Super mario Bros" class="logo-mario">
+            </a>
+            <p>
+                Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!
+            </p>
+
+            <p>
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+                Com anos de experiencia e muitos canos concertados,
+                eles estão prontos para resolver qualquer problema hidráulico que você possa ter.
+            </p>
+
+            <button class="botao-entre-contato" onclick="mostrarFormulario()">Entre em contato</button>
+        </div>
+
+        <div>
+            <img src="./assets/img/mario&luid.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./assets/video/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=5511923423423&text=Ol%C3%A1,%20quero%20a%20ajuda%20dos%20irm%C3%A3os%20Mario!" target="_blank" class="link-whatsapp">
+        <img src="./assets/icon/whatsapp.png" alt="link para o whatsapp" class="zap">
+    </a>
+
+    <form 
+        class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/45Fe_5LHGiB"
+        method="POST"
+        enctype="multipart/form-data">
+
+            <input placeholder="Seu nome" type="text" name="nome" class="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone" class="telefone">
+            <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+            <button class="botao-orcamento" type="submit">Pedir Orçamento</button>
+    </form>
+
+    <div class="mascara-formulario" onclick="esconderFormulario()"></div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
