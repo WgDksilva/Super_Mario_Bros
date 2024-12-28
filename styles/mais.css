@@ -1,12 +1,11 @@
 main {
     flex: 1;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     width: 100%;
     max-width: 1440px;
+    padding: 0 10px;
 }
 
 .main_info {
@@ -16,7 +15,7 @@ main {
 
 .main_info p {
     font-size: 18px;
-    margin: 0 40px;
+    margin: 0 0 0 40px;
 }
 
 .main_info div {
@@ -48,10 +47,41 @@ main {
     position: fixed;
     right: 20px;
     bottom: 20px;
-    
 }
 
 .main_info div img:hover {
     height: 80px;
 }
 
+.navigation_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    padding: 0 10px 10px;
+}
+
+.navigation_social img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    opacity: 0.3;
+    transition: all 0.4s;
+}
+
+.navigation_social img:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.navigation_social p {
+    opacity: 0.3;
+    transition: all 0.4s;
+}
+
+.navigation_social p:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
