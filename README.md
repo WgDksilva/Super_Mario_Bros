@@ -20,7 +20,7 @@ Navegue peço site dos Irmãos Mario & Luid e confira os serviços oferecido pel
 <div align="center">
   
 ### HOME
-
+>
 <div style="display: inline-block">
 <img width="536" alt="dev-movies-home" margin-right="35" src= />
 
@@ -33,7 +33,7 @@ Navegue peço site dos Irmãos Mario & Luid e confira os serviços oferecido pel
 
 ### `Link para orçamentos`
 
-> Click no botão 'Entre em contato' Digite: 'Nome' 'telefone' 'Problema Hidráulico' Peça seu orçamento.
+<p>Click no botão 'Entre em contato' Digite: 'Nome' 'telefone' 'Problema Hidráulico' Peça seu orçamento.</p>
 
 <div align="center" style="display: inline-block">
 <img width="516" alt="dev-movies-modal" margin-right="35" src= />
@@ -41,18 +41,18 @@ Navegue peço site dos Irmãos Mario & Luid e confira os serviços oferecido pel
 <img width="146" height="300"  alt="dev-movies-modal-mob" src= />
 </div>
 
-<br />
+<br/>
 
 # 🚀 Technologies and Tools
 
-Este projeto foi desenvolvido usando as seguintes tecnologias e ferramentas:
-
-- Html.5
-- Css
-- Scripts.js
-- Vscode
-- Github
- 
+<p>Este projeto foi desenvolvido usando as seguintes tecnologias e ferramentas:</p>
+<p>
+* Html.5
+* Css
+* Scripts.js
+* Vscode
+* Github
+ </p>
 
 
 
