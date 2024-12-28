@@ -8,78 +8,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./styles/global.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
-
-    <div class="header">
-        <img src="./assets/icon/icon.png" alt="icon mario bros" class="logo-mario">
-
-        <a href="#">Home</a>
-        <a href="#">Nossos serviços</a>
-        <a href="#">Fale conosco</a>
-    </div>
-
-    <div>
-        <p>Desenvolvido por &copy; Vagner Silva</p>
-
-        <div>
-            <a href="https://www.linkedin.com/in/wgdksilva/">
-                <img src="./assets/icon/link.jpeg" 
-                alt="linkedin">
-            </a>
-            <a href="https://github.com/WgDksilva/">
-                <img src="./assets/icon/git.jpg"
-                alt="github">
-            </a>
-        </div>
-
-    </div>
-
-    <div class="caixa-mae">
-        <div class="caixa-principal">
-            <a href="https://www.nintendo.com/pt-pt/Jogos/Portal-Nintendo/Portal-Super-Mario/Portal-Super-Mario-627604.html"
-                target="_blank">
-                <img src="./assets/img/logo.png" alt="logo Super mario Bros" class="logo-mario">
-            </a>
-            <p>
-                Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!
-            </p>
-
-            <p>
-                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
-                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
-                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
-                Com anos de experiencia e muitos canos concertados,
-                eles estão prontos para resolver qualquer problema hidráulico que você possa ter.
-            </p>
-
-            <button class="botao-entre-contato" onclick="mostrarFormulario()">Entre em contato</button>
-        </div>
-
-        <div>
-            <img src="./assets/img/mario&luid.png" alt="logo mario e luigi" class="imagem-mario-luigi">
-        </div>
-
-    </div>
-
-    <div class="caixa-video">
+    <div id="background">
         <video src="./assets/video/video.mp4" autoplay muted loop></video>
-        <div class="mascara"></div>
     </div>
 
-    <a href="https://api.whatsapp.com/send?phone=5511923423423&text=Ol%C3%A1,%20quero%20a%20ajuda%20dos%20irm%C3%A3os%20Mario!"
-        target="_blank" class="link-whatsapp">
-        <img src="./assets/icon/whatsapp.png" alt="link para o whatsapp" class="zap">
-    </a>
+    <div id="app">
+        <header>
+            <img src="./assets/icon/icon.png" alt="icon mario">
 
-    <form class="formulario-fale-conosco" action="https://formcarry.com/s/45Fe_5LHGiB" method="POST"
+            <ul class="navigation">
+                <li>
+                    <a href="#" class="navigation_link">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation_link">Nossos serviços</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation_link">Fale conosco</a>
+                </li>
+            </ul>
+
+            <div class="navigation_social">
+                <p>&copy; Vagner Silva</p>
+
+                <div>
+                    <a href="https://www.linkedin.com/in/wgdksilva/">
+                        <img src="./assets/icon/link.jpeg" alt="linkedin">
+                    </a>
+                    <a href="https://github.com/WgDksilva/">
+                        <img src="./assets/icon/git.jpg" alt="github">
+                    </a>
+                </div>
+                
+            </div>
+        </header>
+
+        <main>
+            <div class="main_info">
+                <img src="./assets/img/logo.png" width="300px" alt="logo the super mario bros">
+
+                <p>
+                    🔧 Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧<br>
+                    Você já se encontrou em uma situação de emergência com encanamento?<br>
+                    Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar?<br>
+                    Não se preocupe, porque estamos aqui para salvar odia!<br>
+                    Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!<br>
+                    Com anos de experiencia e muitos canos concertados, eles estão prontos para resolver qualquer
+                    problema hidráulico que você possa ter.
+                </p>
+
+                <div>
+
+                    <button type="button" onclick="mostrarFormulario()">Entre em contato</button>
+
+                    <link href="https://api.whatsapp.com/send?phone=5511923423423&text=Ol%C3%A1,%20quero%20a%20ajuda%20dos%20irm%C3%A3os%20Mario!"
+                        target="_blank">
+
+                        <img class="zap" src="./assets/icon/whatsapp.png" alt="icon whatsapp">
+                    <link/>
+                </div>
+            </div>
+
+            <img src="./assets/img/mario&luid.png" width="420px" alt="logo mario e luigi">
+
+        </main>
+    </div>
+
+    <form class="formulario" action="https://formcarry.com/s/45Fe_5LHGiB" method="POST"
         enctype="multipart/form-data">
 
         <input placeholder="Seu nome" type="text" name="nome" class="nome">
         <input placeholder="Seu telefone" type="tel" name="telefone" class="telefone">
+
         <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+
         <button class="botao-orcamento" type="submit">Pedir Orçamento</button>
+        
     </form>
 
     <div class="mascara-formulario" onclick="esconderFormulario()"></div>

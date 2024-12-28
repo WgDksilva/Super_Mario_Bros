@@ -1,135 +1,36 @@
+@import url(./background.css);
+@import url(./header.css);
+@import url(./mais.css);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.logo-mario {
-    height: 200px;
-}
-
-button {
-    color: white;
-    background-color: #c51111;
-    border-radius: 3px;
-    border: none;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.imagem-mario-luigi {
-    height: 500px;
-}
-
-.botao-entre-contato:hover {
-    color: red;
-    background-color: white;
-    font-size: 24spx;
-    transition: 0.6s ease-in-out;
-}
-
-body {
-    height: 100vh;
-}
-
-.header img {
-    height: 60px;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin: 5px 0 0 100px;
-}
-
-.header a {
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
     text-decoration: none;
 }
 
-.servicos {
-    margin-left: 20px;
+:root {
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
 }
-
-.header a:hover {
-    color: #c51111;
-    font-size: 30px;
-    transition: 0.6s ease-in-out;
+  
+body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
 }
-
-a .logo-mario:hover {
-    height: 205px;
-    transition: 0.7s ease-in-out;
-    background: none;
-}
-
-a .mario:hover {
-    height: 62px;
-    transition: 0.7s ease-in-out;
-}
-
-.imagem-mario-luigi:hover {
-    height: 510px;
-    transition: 0.5s ease-in-out;
-}
-
-.caixa-mae {
+ 
+#app {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    padding: 100px;
+    width: 100%;
     height: 100vh;
 }
 
-.caixa-principal {
-    width: 40%;
-}
-
-.caixa-video {
-    position: fixed;
-    top: 0;
-    z-index: -1;
-
-}
-
-video {
-    min-height: 100%;
-    min-width: 100%;
-    position: fixed;
-    top: 0;
-}
-
-.mascara {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    position: fixed;
-    top: 0;
-}
-
-p {
-    color: aliceblue;
-}
-
-.link-whatsapp img {
-    height: 60px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
-
-a .zap:hover {
-    height: 80px;
-}
-
-.formulario-fale-conosco {
+.formulario {
     background: radial-gradient(circle, rgb(138, 3, 3) 21%, rgba(1, 73, 52, 0.986) 100%);
     display: flex;
     gap: 20px;
@@ -144,59 +45,46 @@ a .zap:hover {
 }
 
 input {
-    color: gray;
+    color: white;
     font-weight: bold;
     background-color: black;
     height: 40px;
     border-radius: 5px;
-    border: 0.5px solid whitesmoke;
+    border: 0.9px solid white;
     padding-left: 5px;
-    border-inline-color: black;
-    outline-color: rgb(54, 5, 5);
-    border-inline-color: outline-color cornflowerblue;
-    ;
+    
 }
 
 form input:hover {
-    color: gray;
+    color: white;
     background-color: transparent;
-    outline-color: cornflowerblue;
 }
 
 textarea {
-    color: gray;
+    color: white;
     font-size: 16px;
     font-weight: bold;
     background-color: black;
     width: 270px;
     height: 100px;
     border-radius: 5px;
-    border: 0.5px solid whitesmoke;
+    border: 0.9px solid white;
     padding-left: 5px;
-    padding-top: 8px;
-    outline-color: rgb(54, 5, 5);
 }
 
 form textarea:hover {
-    color: gray;
+    color: white;
     background-color: transparent;
-    border-inline-color: black;
-    outline-color: cornflowerblue;
 }
 
 .botao-orcamento {
-    color: gray;
+    color: white;
     background-color: black;
-    border: 0.5px solid whitesmoke;
-    margin: 35px;
+    border: 0.9px solid white;
 }
 
 .botao-orcamento:hover {
-    color: hsl(0, 0%, 96%);
     background: transparent;
-    font-size: 1.1em;
-    border-inline-color: black;
-    outline-color: cornflowerblue;
     transition: color 0.8s ease-in-out;
 }
 
@@ -209,7 +97,6 @@ form textarea:hover {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     transition: visibility 1.7s ease-in-out;
 }
-
 
 /*
     Inicial
@@ -229,37 +116,3 @@ Min -> Valor maior que Npx, aplica o CSS do MEDIA
 
 */
 
-@media (max-width: 1100px) {
-    
-    p {
-        display: none;
-    }
-
-    .caixa-mae {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .caixa-principal {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .imagem-mario-luigi {
-        width: 80vw;
-        height: auto;
-    }
-
-    .header {
-        margin: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .header a {
-        font-size: 18px;
-    }
-
-}
