@@ -7,13 +7,13 @@
 # 🔖 Usability
 
 <p> Intruções de uso: <br/>
-Navegue peço site dos Irmãos Mario & Luid e confira os serviços oferecido pelos mesmos:</p>
+Navegue pelo site dos Irmãos Mario & Luigi e confira os serviços oferecido pelos mesmos:</p>
 <p>Entre em contato e informe-os sobre o seu problema e peça um orçamento.</p>
 <p>Caso seu problema hidráulico seja uma emergência e necessite de uma atenção com urgência:<p/>
 <p></p>Entre em contato diretamente nos canais citados nos ícones abaixo.</p>
 
 # 🔖 Deploy
-
+https://wgdksilva.github.io/Super_Mario_Bros/
 
 # 🎥 Section's
 
