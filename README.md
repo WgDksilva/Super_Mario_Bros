@@ -22,9 +22,9 @@ Navegue peço site dos Irmãos Mario & Luid e confira os serviços oferecido pel
 ### HOME
 >
 <div style="display: inline-block">
-<img width="536" alt="dev-movies-home" margin-right="35" src= />
+<img width="536" alt="dev-movies-home" margin-right="35" src=https://github.com/WgDksilva/Super_Mario_Bros/blob/main/assets/img/img1/>
 
-<img width="146" height="300" alt="dev-movies-home-mob" src= />
+<img width="146" height="300" alt="dev-movies-home-mob" src=https://github.com/WgDksilva/Super_Mario_Bros/blob/main/assets/img/img2/>
 </div
 
  <br>
@@ -36,9 +36,9 @@ Navegue peço site dos Irmãos Mario & Luid e confira os serviços oferecido pel
 <p>Click no botão 'Entre em contato' Digite: 'Nome' 'telefone' 'Problema Hidráulico' Peça seu orçamento.</p>
 
 <div align="center" style="display: inline-block">
-<img width="516" alt="dev-movies-modal" margin-right="35" src= />
+<img width="516" alt="dev-movies-modal" margin-right="35" src=https://github.com/WgDksilva/Super_Mario_Bros/blob/main/assets/img/img3/>
   
-<img width="146" height="300"  alt="dev-movies-modal-mob" src= />
+<img width="146" height="300"  alt="dev-movies-modal-mob" src=https://github.com/WgDksilva/Super_Mario_Bros/blob/main/assets/img/img4/>
 </div>
 
 <br/>
