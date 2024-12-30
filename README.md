@@ -1,4 +1,4 @@
-<h1 align="center">Irmãos Mario & Luid</h1>
+<h1 align="center">Irmãos Mario & Luigi</h1>
  
 ### <p align="center">🔧 Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧</p>
 ### <p align="center">Interface pensada para uma experiência única.</p>
